@@ -1,0 +1,15 @@
+name: Tarefa
+description: Trabalho técnico ou de manutenção
+title: "[TASK] "
+body:
+  - type: textarea
+    id: o-que-fazer
+    attributes:
+      label: O que fazer
+    validations:
+      required: true
+  - type: textarea
+    id: pronto-quando
+    attributes:
+      label: Pronto quando
+      description: O resultado que mostra que a tarefa terminou.

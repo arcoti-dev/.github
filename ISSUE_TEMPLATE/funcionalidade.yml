@@ -1,0 +1,19 @@
+name: Funcionalidade
+description: Algo novo que o sistema deve fazer
+title: "[FEATURE] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: necessidade
+    attributes:
+      label: Qual é a necessidade
+      description: Quem precisa disso e o que quer conseguir fazer.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Como saberemos que está pronto
+      description: Liste os critérios de aceite, um por linha.
+    validations:
+      required: true

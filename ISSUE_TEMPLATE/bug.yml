@@ -1,0 +1,24 @@
+name: Erro
+description: Algo não funciona como deveria
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: o-que-acontece
+    attributes:
+      label: O que acontece
+      description: Descreva o erro e o que você esperava ver.
+    validations:
+      required: true
+  - type: textarea
+    id: como-repetir
+    attributes:
+      label: Como repetir
+      description: Passos para reproduzir, com o endereço da tela se houver.
+    validations:
+      required: true
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Mensagem de erro, captura de tela ou trecho de log. Não cole senhas nem dados de clientes.
